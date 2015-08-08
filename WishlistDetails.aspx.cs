@@ -36,25 +36,17 @@ public partial class WishlistDetails : System.Web.UI.Page
         con.Open();
         SqlCommand com = new SqlCommand();
         com.Connection = con;
-        com.CommandText = "SELECT Wishlist.Wishlist_ID, Wishlist.Wishlist_Name, Wishlist.Wishlist_Description FROM Wishlist " +
-            "WHERE Wishlist_ID=@Wishlist_ID";
+        com.CommandText = "SELECT Items.Item_ID, Items.Item_Name, Items.Item_Image, Wishlist.Wishlist_ID FROM Items " +
+            "INNER JOIN Wishlist ON Items.Wishlist_ID = Wishlist.Wishlist_ID WHERE Items.Wishlist_ID=@Wishlist_ID";
+
         com.Parameters.AddWithValue("@Wishlist_ID", ID);
 
-        SqlDataReader dr = com.ExecuteReader();
-        if (dr.HasRows)
-        {
-            while (dr.Read())
-            {
-                ltName.Text = dr["Wishlist_Name"].ToString();
-                ltDescription.Text = dr["Wishlist_Description"].ToString();
-            }
+        SqlDataAdapter da = new SqlDataAdapter(com);
+        DataSet ds = new DataSet();
+        da.Fill(ds, "Products");
 
-            con.Close();
-        }
-        else
-        {
-            con.Close();
-            Response.Redirect("Wishlist.aspx");
-        }
+        lvItems.DataSource = ds;
+        lvItems.DataBind();
+        con.Close();
     }
 }

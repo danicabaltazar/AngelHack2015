@@ -28,7 +28,7 @@ public partial class AddItem : System.Web.UI.Page
         com.Parameters.AddWithValue("@Item_Name", txtItemName.Text);
         com.Parameters.AddWithValue("@Item_Image", fuImage.FileName);
         fuImage.SaveAs(Server.MapPath("~/images/items/" + fuImage.FileName));
-        com.Parameters.AddWithValue("@Item_Category", txtCategory.Text);
+        com.Parameters.AddWithValue("@Item_Category", ddlCategory.SelectedValue);
         com.Parameters.AddWithValue("@Item_Description", txtDescription.Text);
         com.Parameters.AddWithValue("@Item_Price", txtPrice.Text);
         com.Parameters.AddWithValue("@Wishlist_Name", ddlWishlistName.SelectedValue);

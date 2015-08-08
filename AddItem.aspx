@@ -31,7 +31,14 @@
                 <label class="control-label col-lg-5">Category</label>
                 <div class="col-lg-7">
             
-                    <asp:Textbox ID="txtCategory" runat="server" class="form-control" />
+                    <asp:DropDownList ID="ddlCategory" runat="server" class="form-control">
+                        <asp:ListItem>Food</asp:ListItem>
+                        <asp:ListItem>Footwear</asp:ListItem>
+                        <asp:ListItem>Clothes</asp:ListItem>
+                        <asp:ListItem>Service</asp:ListItem>
+                        <asp:ListItem>Electronics</asp:ListItem>
+                        <asp:ListItem>Beauty</asp:ListItem>
+                        </asp:DropDownList>
                 </div>
             </div>
 

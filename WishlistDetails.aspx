@@ -8,19 +8,16 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="content" Runat="Server">
      <form runat="server" class="form-horizontal">
 
+         <h2 class="text-center">Items</h2>
+         <p class="text-center"><a href='AddItem.aspx?ID=<%# Eval("Wishlist_ID") %>'>Add Items</a></p>
+
         <div class="col-lg-9">
             <asp:ListView ID="lvItems" runat="server">
                 <ItemTemplate>
-                    <div class="col-lg-3">
-
-                        <h2>Items</h2>
-                        <a href='AddItem.aspx?ID=<%# Eval("Wishlist_ID") %>'>Add Items</a>
-
-                    </div>
 
                     <div class="col-lg-4">
                         <div class="thumbnail" style="height: 300px;">
-                            <a href='ItemDetails.aspx?ID=<%# Eval("Wishlist_ID") %>'><img src='img/items/<%# Eval("Item_Image") %>' /></a>
+                            <a href='ItemDetails.aspx?ID=<%# Eval("Wishlist_ID") %>'><img src='images/items/<%# Eval("Item_Image") %>' /></a>
 
                             <div class="caption">
                                 <h3><%# Eval("Item_Name") %></h3>
@@ -32,6 +29,15 @@
                         </div>
                     </div>
                 </ItemTemplate>
+
+                <EmptyDataTemplate>
+                            <tr>
+                                <td colspan="6">
+                                    <h2 class="text-center">No items found.</h2>
+                                </td>
+                            </tr>
+                </EmptyDataTemplate>
+
             </asp:ListView>
         </div>
 
