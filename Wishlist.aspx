@@ -19,9 +19,9 @@
         <asp:ListView ID="lvWishlist" runat="server"> 
                 
                 <ItemTemplate>
-                    <div class="col-lg-4">
+                    <div class="col-lg-5">
                     <br />
-                        <div class="thumbnail" style="height: 200px; width: 100px">
+                        <div class="thumbnail" style="height: 200px; width: 120px">
                             <a href='WishlistDetails.aspx?ID=<%# Eval("Wishlist_ID") %>'><h3 class="text-center"><%# Eval("Wishlist_Name") %></h3></a>
 
                             <div class="caption">

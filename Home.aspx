@@ -165,7 +165,6 @@
                                 <br />
                                 <br />
                                 <br />
-                                <br />
                                 <h3 class="animated3">
                             		<span>You gotta rub it if you wanna have it</span>
                             	</h3>
