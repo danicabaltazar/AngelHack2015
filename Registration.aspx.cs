@@ -45,7 +45,7 @@ public partial class Registration : System.Web.UI.Page
         com.Connection = con;
 
         string sql = "";
-        sql += " INSERT INTO [AngelHack].[dbo].[User] ";
+        sql += " INSERT INTO [Genie].[dbo].[Users] ";
         sql += " (Last_Name, First_Name, Username, Password, Email, Birthday)";
         sql += " VALUES (@Last_Name, @First_Name, @Username, @Password, @Email, @Birthday)";
 

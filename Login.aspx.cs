@@ -20,9 +20,9 @@ public partial class Login : System.Web.UI.Page
         con.Open();
         SqlCommand com = new SqlCommand();
         com.Connection = con;
-        com.CommandText = "SELECT UserID FROM Register " +
-                            "WHERE UserName=@UserName AND Password=@Password";
-        com.Parameters.AddWithValue("@UserName", txtUsername.Text);
+        com.CommandText = "SELECT User_ID FROM Users " +
+                            "WHERE Username=@Username AND Password=@Password";
+        com.Parameters.AddWithValue("@Username", txtUsername.Text);
         com.Parameters.AddWithValue("@Password", txtPassword.Text);
 
         SqlDataReader dr = com.ExecuteReader();
@@ -30,10 +30,10 @@ public partial class Login : System.Web.UI.Page
         {
             while (dr.Read())
             {
-                Session["userid"] = dr["UserID"].ToString();
+                Session["userid"] = dr["User_ID"].ToString();
             }
             con.Close();
-            Response.Redirect("Homepage.aspx");
+            Response.Redirect("Wishlist.aspx");
         }
         else //if Email and Password does not match
         {

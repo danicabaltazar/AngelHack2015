@@ -186,7 +186,7 @@
             
         </header> 
         <!-- End Header Section -->
-        
+        <section id="home" style="margin-top: -20px">
         
         <!-- Start Portfolio Section -->
         <div class="section full-width-portfolio" style="border-top:0; border-bottom:0; background:#b4d8e7;">

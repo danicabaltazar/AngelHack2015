@@ -6,7 +6,10 @@
 
 .btn-default,
 .btn-primary,
-.btn-success,
+.btn-success
+{
+    color: red;
+}
 .btn-info,
 .btn-warning,
 .btn-danger {

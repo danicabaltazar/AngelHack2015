@@ -17,7 +17,7 @@
            <h3>Php <asp:Literal ID="ltPrice" runat="server"></asp:Literal></h3>
            <div class="input group col-lg-4">
                 <span class="input-group-btn">
-                    <asp:LinkButton ID="btnAdd" runat="server" class="btn btn-success" 
+                    <asp:LinkButton ID="btnAdd" runat="server" class="btn btn-danger"
                    onclick="btnAdd_Click">
                         <i class="fa fa-heart"></i> Take This
                     </asp:LinkButton>

@@ -147,7 +147,7 @@
         </header> 
         <!-- End Header Section -->
            
-        <section id="home" style="margin-top: -20px;">
+        <section id="home" style="margin-top: -20px">
             <div id="main-slide" >
               
                 <div class="header">
