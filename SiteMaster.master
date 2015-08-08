@@ -25,6 +25,7 @@
 
     <!-- Font Awesome CSS -->
     <link rel="stylesheet" href="~/css/font-awesome.min.css" type="text/css" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Berkshire+Swash' rel='stylesheet' type='text/css'/>
 
     <!-- Margo CSS Styles  -->
     <link rel="stylesheet" type="text/css" href="~/css/style.css" media="screen">

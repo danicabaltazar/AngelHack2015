@@ -6,19 +6,17 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="content" Runat="Server">
 
-    <div class="col-lg-4">
-         
-    </div>
-
-    <div class="col-lg-4">
-        <center><a href="AddWishlist.aspx" class="btn btn-success btn btn-md">Add a wishlist</a></center>
+   
+        <center><a href="AddWishlist.aspx" class="btn btn-system btn btn-md">Add a wishlist</a></center>
          <br />
        
-
+      
         <asp:ListView ID="lvWishlist" runat="server"> 
                 
                 <ItemTemplate>
-                    <div class="col-lg-5">
+                <div class="col-lg-2">
+                <div class="container">
+                    
                     <br />
                         <div class="thumbnail" style="height: 200px; width: 120px">
                             <a href='WishlistDetails.aspx?ID=<%# Eval("Wishlist_ID") %>'><h3 class="text-center"><%# Eval("Wishlist_Name") %></h3></a>
@@ -29,17 +27,15 @@
                                    "<small><a href='WishlistDetails.aspx?ID=", 
                                    Eval("Wishlist_ID"), "'> see more...</a></small>")  : Eval("Wishlist_Description") %></p>
                             </div>
-
+                           
                         </div>
+                    </div>
                     </div>
                 </ItemTemplate>
             </asp:ListView>
 
-    </div>
+    
 
-    <div class="col-lg-4">
-
-    </div>
 
 </asp:Content>
 

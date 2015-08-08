@@ -95,10 +95,10 @@
                             <!-- Start Social Links -->
                             <ul class="social-list">
                                 <li>
-                                    <a class="facebook itl-tooltip" data-placement="bottom" title="Facebook" href="#"><i class="fa fa-facebook"></i></a>
+                                    <a class="facebook itl-tooltip" data-placement="bottom" title="Facebook" href="http://facebook.com"><i class="fa fa-facebook"></i></a>
                                 </li>
                                 <li>
-                                    <a class="twitter itl-tooltip" data-placement="bottom" title="Twitter" href="#"><i class="fa fa-twitter"></i></a>
+                                    <a class="twitter itl-tooltip" data-placement="bottom" title="Twitter" href="#"><i class="http://twitter.com"></i></a>
                                 </li>
                                 
                             </ul>
