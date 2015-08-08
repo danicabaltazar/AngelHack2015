@@ -163,7 +163,8 @@
                                 <br />
                                 <br />
                                 
-                                
+                                <img src="images/Genie%20MK2%20Main.png" />
+                                <br />
                                 <h3 class="animated3">
                             		<span>You gotta rub it if you wanna have it</span>
                             	</h3>
@@ -256,7 +257,7 @@
 </div>
 </div>
             </div>
-        </div>
+    </div>
       
         
         
