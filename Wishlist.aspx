@@ -15,11 +15,29 @@
          <br />
         <h5><center><i class="fa fa-users"> Friends: 0 </i></center></h5>
        
-        
+
+        <asp:ListView ID="lvWishlist" runat="server"> 
+                
+                <ItemTemplate>
+                    <div class="col-lg-4">
+                        <div class="thumbnail" style="height: 200px;">
+                            <a href='WishlistDetails.aspx?ID=<%# Eval("Wishlist_ID") %>'><h2 class="text-center"><%# Eval("Wishlist_Name") %></h2></a>
+
+                            <div class="caption">
+                            <p><%# Eval("Wishlist_Description").ToString().Length >= 50 ? 
+                                   string.Concat(Eval("Wishlist_Description").ToString().Substring(0, 50), 
+                                   "<small><a href='WishlistDetails.aspx?ID=", 
+                                   Eval("Wishlist_ID"), "'> see more...</a></small>")  : Eval("Wishlist_Description") %></p>
+                            </div>
+
+                        </div>
+                    </div>
+                </ItemTemplate>
+            </asp:ListView>
+
     </div>
 
     <div class="col-lg-4">
-
 
     </div>
 
