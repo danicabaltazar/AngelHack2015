@@ -161,7 +161,11 @@
                                 <h2 class="animated2">
                         		  
                         	    </h2>
-                                
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
                                 <h3 class="animated3">
                             		<span>You gotta rub it if you wanna have it</span>
                             	</h3>
