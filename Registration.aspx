@@ -1,13 +1,14 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/NoNavbar.master" AutoEventWireup="true" CodeFile="Registration.aspx.cs" Inherits="Registration" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="title" Runat="Server">
+
  <div class="col-lg-3"></div>
   <div class="col-lg-3">
   <h1>Register Here!</h1>
   </div>
 
-
 </asp:Content>
+
 <asp:Content ID="Content2" ContentPlaceHolderID="content" Runat="Server">
  <form id="Form1" runat="server" class="form-horizontal">
     <br />
@@ -76,4 +77,5 @@
              
         </div>
     </form>
-
+    </asp:Content>
+   
