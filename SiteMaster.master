@@ -104,7 +104,7 @@
                             <i class="fa fa-bars"></i>
                         </button>
                         <!-- End Toggle Nav Link For Mobiles -->
-                        <a class="navbar-brand" href="index.html">
+                        <a class="navbar-brand" href="">
                             <img alt="" src="images/slider/Genietext.png">
                         </a>
                     </div>
@@ -179,30 +179,14 @@
                                     <li><a href="accordion-toggles.html">Accordion & Toggles</a>
                                     </li>
                                 </ul>
+                            </li>--%>
+                            <li>
+                                <a href="Wishlist.aspx">Wishlist</a>
+                                
                             </li>
                             <li>
-                                <a href="portfolio-3.html">Portfolio</a>
-                                <ul class="dropdown">
-                                    <li><a href="portfolio-2.html">2 Columns</a>
-                                    </li>
-                                    <li><a href="portfolio-3.html">3 Columns</a>
-                                    </li>
-                                    <li><a href="portfolio-4.html">4 Columns</a>
-                                    </li>
-                                    <li><a href="single-project.html">Single Project</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="blog.html">Blog</a>
-                                <ul class="dropdown">
-                                    <li><a href="blog.html">Blog - right Sidebar</a>
-                                    </li>
-                                    <li><a href="blog-left-sidebar.html">Blog - Left Sidebar</a>
-                                    </li>
-                                    <li><a href="single-post.html">Blog Single Post</a>
-                                    </li>
-                                </ul>--%>
+                                <a href="Home.aspx">Logout</a>
+                                
                             </li>
                             <li><a href="contact.html">Contact</a>
                             </li>
