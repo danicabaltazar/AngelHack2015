@@ -103,7 +103,7 @@
                         </button>
                         <!-- End Toggle Nav Link For Mobiles -->
                         <a class="navbar-brand" href="Home.aspx">
-                            <h2>Genie</h2>
+                            <img src="images/slider/Genietext.png" />
                         </a>
                     </div>
                     <div class="navbar-collapse collapse">
