@@ -8,12 +8,8 @@
 </head>
 <body>
     <form id="form1" runat="server">
-<<<<<<< HEAD
     Deez Nutz
     HAAAAA GAT EM!!! :D
-=======
-        Deez Nutz
->>>>>>> origin/master
     <div>
     </div>
     </form>
