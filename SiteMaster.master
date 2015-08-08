@@ -144,7 +144,7 @@
                             <a href="#" class="show-search"><i class="fa fa-search"></i></a>
                             <div class="search-form">
                                 <form autocomplete="off" role="search" method="get" class="searchform" action="#">
-                                    <input type="text" value="" name="s" id="s" placeholder="Search the site...">
+                                    <input type="text" value="" name="s" id="s" placeholder="Search by username...">
                                 </form>
                             </div>
                         </div>
