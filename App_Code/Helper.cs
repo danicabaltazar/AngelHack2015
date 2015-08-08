@@ -20,7 +20,7 @@ public class Helper
 
     public static string GetCon()
     {
-        return ConfigurationManager.ConnectionStrings["conString"].ConnectionString;
+        return ConfigurationManager.ConnectionStrings["MyCon"].ConnectionString;
     }
 
     public static string CreateSHAHash(string Phrase)
