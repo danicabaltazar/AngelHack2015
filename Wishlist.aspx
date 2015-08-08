@@ -6,7 +6,6 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="content" Runat="Server">
 
-   
         <center><a href="AddWishlist.aspx" class="btn btn-system btn btn-md">Add a wishlist</a></center>
          <br />
        
