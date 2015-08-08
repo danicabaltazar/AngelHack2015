@@ -323,6 +323,7 @@
     <script type="text/javascript" src='<%= Page.ResolveUrl("~/js/jquery.parallax.js") %>'></script>
     <script type="text/javascript" src='<%= Page.ResolveUrl("~/js/mediaelement-and-player.js") %>'></script>
     <script type="text/javascript" src='<%= Page.ResolveUrl("~/js/script.js") %>'></script>
+    
 </body>
 
 </html>
