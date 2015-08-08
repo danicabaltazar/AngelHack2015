@@ -11,15 +11,17 @@
         </div>
 
 
-        <div class="col-lg-6">
+        <div class="col-lg-6 pull-left">
            <p>Category: <asp:Literal ID="ltCategory" runat="server"></asp:Literal></p>
-           <p>Description: <br /><br /><asp:Literal ID="ltDesc" runat="server"></asp:Literal></p>
-           <h3>Php <asp:Literal ID="ltPrice" runat="server"></asp:Literal></h3>
-           <div class="input group col-lg-4">
+           <p>Description:<br /><asp:Literal ID="ltDesc" runat="server"></asp:Literal></p><br />
+           <h3>Php <asp:Literal ID="ltPrice" runat="server"></asp:Literal></h3><br />
+           <div class="form-group col-lg-4">
+                <p>Add a comment here:</p>
+                <asp:TextBox ID="txtComment" runat="server" class="input-lg"></asp:TextBox><br /><br />
                 <span class="input-group-btn">
                     <asp:LinkButton ID="btnAdd" runat="server" class="btn btn-danger"
                    onclick="btnAdd_Click">
-                        <i class="fa fa-heart"></i> Take This
+                        <i class="fa fa-heart"></i> Grant this!
                     </asp:LinkButton>
                 </span>
            </div> 

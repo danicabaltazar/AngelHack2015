@@ -38,9 +38,9 @@ public partial class WishlistDetails : System.Web.UI.Page
         SqlCommand com = new SqlCommand();
         com.Connection = con;
         com.CommandText = "SELECT Items.Item_ID, Items.Item_Name, Items.Item_Image, Wishlist.Wishlist_ID FROM Items " +
-            "INNER JOIN Wishlist ON Items.Wishlist_ID = Wishlist.Wishlist_ID WHERE Items.Wishlist_ID=@Wishlist_ID";
+            "INNER JOIN Wishlist ON Items.Wishlist_ID = Wishlist.Wishlist_ID WHERE Items.Wishlist_ID=@Items_ID";
 
-        com.Parameters.AddWithValue("@Wishlist_ID", ID);
+        com.Parameters.AddWithValue("@Items_ID", ID);
 
         SqlDataAdapter da = new SqlDataAdapter(com);
         DataSet ds = new DataSet();

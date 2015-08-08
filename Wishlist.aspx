@@ -13,11 +13,11 @@
         <asp:ListView ID="lvWishlist" runat="server"> 
                 
                 <ItemTemplate>
-                <div class="col-lg-2">
+                <div class="col-lg-3">
                 <div class="container">
                     
                     <br />
-                        <div class="thumbnail" style="height: 200px; width: 120px">
+                        <div class="thumbnail" style="height: 200px; width: 180px">
                             <a href='WishlistDetails.aspx?ID=<%# Eval("Wishlist_ID") %>'><h3 class="text-center"><%# Eval("Wishlist_Name") %></h3></a>
 
                             <div class="caption">

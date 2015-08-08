@@ -79,7 +79,7 @@
                         </div><!-- .col-md-6 -->
                         <div class="col-md-5">
                             <!-- Start Social Links -->
-                            <ul class="social-list">
+                            <%--<ul class="social-list">
                                 
                                 <li>
                                     <a class="facebook itl-tooltip" data-placement="bottom" title="Facebook" href="#"><i class="fa fa-facebook"></i></a>
@@ -88,7 +88,7 @@
                                     <a class="twitter itl-tooltip" data-placement="bottom" title="Twitter" href="#"><i class="fa fa-twitter"></i></a>
                                 </li>
                                 
-                            </ul>
+                            </ul>--%>
                             <!-- End Social Links -->
                         </div><!-- .col-md-6 -->
                     </div><!-- .row -->
@@ -187,7 +187,7 @@
             
         </header> 
         <!-- End Header Section -->
-        <section id="home" style="margin-top: -20px">
+        <section id="home" style="margin-top: -70px">
         
         <!-- Start Portfolio Section -->
         <div class="section full-width-portfolio" style="border-top:0; border-bottom:0; background:#b4d8e7;">
@@ -221,9 +221,9 @@
                         </div><!-- .col-md-6 -->
                         <div class="col-md-6">
                             <ul class="footer-nav"
-                                <li><a href="#">HELLO</a>
+                                <li><a href="#"></a>
                                 </li>
-                                <li><a href="#">Contact</a>
+                                <li><a href="#">Contact Us</a>
                                 </li>
                             </ul>
                         </div><!-- .col-md-6 -->

@@ -1,4 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Home.aspx.cs" Inherits="Home" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Homepage.aspx.cs" Inherits="Homepage" %>
+
 
 <!doctype html>
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
@@ -95,10 +96,10 @@
                             <!-- Start Social Links -->
                             <ul class="social-list">
                                 <li>
-                                    <a class="facebook itl-tooltip" data-placement="bottom" title="Facebook" href="http://facebook.com"><i class="fa fa-facebook"></i></a>
+                                    <a class="facebook itl-tooltip" data-placement="bottom" title="Facebook" href="#"><i class="fa fa-facebook"></i></a>
                                 </li>
                                 <li>
-                                    <a class="twitter itl-tooltip" data-placement="bottom" title="Twitter" href="#"><i class="http://twitter.com"><i class="fa fa-twitter"></i></a>
+                                    <a class="twitter itl-tooltip" data-placement="bottom" title="Twitter" href="#"><i class="fa fa-twitter"></i></a>
                                 </li>
                                 
                             </ul>
@@ -119,8 +120,8 @@
                             <i class="fa fa-bars"></i>
                         </button>
                         <!-- End Toggle Nav Link For Mobiles -->
-                        <a class="navbar-brand" href="Home.aspx">
-                           <img src="images/slider/Genietext.png" />
+                        <a class="navbar-brand" href="index.html">
+                            <img alt="" src="images/slider/Genietext.png">
                         </a>
                     </div>
                     <div class="navbar-collapse collapse">
@@ -146,23 +147,19 @@
             
         </header> 
         <!-- End Header Section -->
-           
-        <section id="home" style="margin-top: -20px">
+            
+        </header> 
+        <section id="home">
             <div id="main-slide" >
               
                 <div class="header">
                     <div class="" style=" height: 449px; width: 1275px" >
                         <img class="img-responsive" src="images/slider/b4d8e7.png" alt="slider" style="width: 100%;max-height: 100%"  />
-                             
-                            <div class="slider-content">
-                                <div class="col-lg-12 text-center">
-                                
+                        <div class="slider-content">
+                            <div class="col-md-12 text-center">
                                 <h2 class="animated2">
-                        		  
+                        		  <span> GENIE </span> 
                         	    </h2>
-                                <br />
-                                <br />
-                                
                                 
                                 <h3 class="animated3">
                             		<span>You gotta rub it if you wanna have it</span>
@@ -176,7 +173,7 @@
 
                                 
                                 </p>
-                               
+                                
                                </div>
                             </div>
                         </div>

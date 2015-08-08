@@ -38,7 +38,7 @@ public partial class ItemDetails : System.Web.UI.Page
         con.Open();
         SqlCommand com = new SqlCommand();
         com.Connection = con;
-        com.CommandText = "SELECT Items.Item_Name, Items.Item_ID, Items.Item_Image, Items.Item_Category, Items.Item_Description, " +
+        com.CommandText = "SELECT Items.Item_ID, Items.Item_Name, Items.Item_Image, Items.Item_Category, Items.Item_Description, " +
             "Items.Item_Prize FROM Items WHERE Items.Item_ID=@Item_ID";
         com.Parameters.AddWithValue("@Item_ID", ID);
 
@@ -68,7 +68,8 @@ public partial class ItemDetails : System.Web.UI.Page
     }
     protected void btnAdd_Click(object sender, EventArgs e)
     {
-        Response.Redirect("~/ItemDetails.aspx?ID=" +
-            Request.QueryString["ID"].ToString());
+        Response.Redirect("Greeting.aspx");
+        //Response.Redirect("~/WishlistDetails.aspx?ID=" +
+        //    Request.QueryString["ID"].ToString());
     }
 }

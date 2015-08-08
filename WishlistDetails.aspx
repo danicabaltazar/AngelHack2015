@@ -16,8 +16,8 @@
                 <ItemTemplate>
 
                     <div class="col-lg-4">
-                        <div class="thumbnail" style="height: 300px;">
-                            <a href='ItemDetails.aspx?ID=<%# Eval("Wishlist_ID") %>'><img src='images/items/<%# Eval("Item_Image") %>' /></a>
+                        <div class="thumbnail" style="height: 150px;">
+                            <a href='ItemDetails.aspx?ID=<%# Eval("Item_ID") %>'><img src='images/items/<%# Eval("Item_Image") %>' /></a>
 
                             <div class="caption">
                                 <h3><%# Eval("Item_Name") %></h3>
