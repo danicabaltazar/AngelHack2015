@@ -21,6 +21,7 @@ public partial class WishlistDetails : System.Web.UI.Page
             if (validWishlist)
             {
                 GetInfo(Wishlist_ID);
+                GetWish(Wishlist_ID);
             }
 
             else
@@ -43,10 +44,39 @@ public partial class WishlistDetails : System.Web.UI.Page
 
         SqlDataAdapter da = new SqlDataAdapter(com);
         DataSet ds = new DataSet();
-        da.Fill(ds, "Products");
+        da.Fill(ds, "Items");
 
         lvItems.DataSource = ds;
         lvItems.DataBind();
         con.Close();
+    }
+
+    void GetWish(int ID)
+    {
+        con.Open();
+        SqlCommand com = new SqlCommand();
+        com.Connection = con;
+        com.CommandText = "SELECT Wishlist.Wishlist_ID, Wishlist.Wishlist_Name, Wishlist.Wishlist_Description FROM Wishlist " +
+            "WHERE Wishlist_ID=@Wishlist_ID";
+        com.Parameters.AddWithValue("@Wishlist_ID", ID);
+
+        SqlDataReader dr = com.ExecuteReader();
+        if (dr.HasRows)
+        {
+            while (dr.Read())
+            {
+                ltName.Text = dr["Wishlist_Name"].ToString();
+                ltDescription.Text = dr["Wishlist_Description"].ToString().Replace(Environment.NewLine, "<br/>");
+
+            }
+
+            con.Close();
+        }
+        else
+        {
+            con.Close();
+            Response.Redirect("Wishlist.aspx");
+        }
+
     }
 }

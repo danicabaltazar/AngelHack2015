@@ -395,8 +395,8 @@ header {
 }
 
 .top-bar {
-	background-color: #fff;
-	border-bottom: 1px solid #f2f2f2;
+	background-color: #F4E4B2;
+	
 }
 
 .top-bar.color-bar {
@@ -412,15 +412,15 @@ header {
 }
 
 .top-bar.color-bar ul.social-list li a i {
-	border-left: 1px solid rgba(255,255,255,.1);
+	
 }
 
 .top-bar.color-bar ul.social-list li:last-child a i {
-	border-right: 1px solid rgba(255,255,255,.1);
+	
 }
 
 .top-bar.color-bar .contact-details li a:before {
-	color: rgba(255,255,255,.2);
+	
 }
 
 .top-bar.dark-bar {
@@ -437,11 +437,11 @@ header {
 }
 
 .top-bar.dark-bar ul.social-list li a i {
-	border-left: 1px solid rgba(255,255,255,.08);
+	
 }
 
 .top-bar.dark-bar ul.social-list li:last-child a i {
-	border-right: 1px solid rgba(255,255,255,.08);
+	
 }
 
 .top-bar.dark-bar .contact-details li a:before {
@@ -557,7 +557,7 @@ ul.social-list li:last-child a i {
 	border-style: none;
     border-color: inherit;
     border-width: medium;
-    background: #fff;
+    background: #F4E4B2;
     border-radius: 0;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
@@ -3100,7 +3100,7 @@ ul.icons-list li i {
     transition: all 0.5s;
 }
 #portfolio-list li h3{
-    background:#fff;
+    background:#f06f07;
     bottom: 0;
     font-size: 1.4em;
     font-weight: 300;
@@ -3168,7 +3168,7 @@ and (min-width : 551px){
     line-height: 1.5;
     font-weight: 300;
     text-transform: none;
-    color:#fff;
+    color:#F4E4B2;
 }
 @media (min-width: 992px) {
   #portfolio-list li .header {

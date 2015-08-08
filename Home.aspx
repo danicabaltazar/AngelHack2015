@@ -146,9 +146,8 @@
             
         </header> 
         <!-- End Header Section -->
-            
-        </header> 
-        <section id="home">
+           
+        <section id="home" style="margin-top: -20px;">
             <div id="main-slide" >
               
                 <div class="header">
@@ -164,7 +163,7 @@
                                 <br />
                                 <br />
                                 <br />
-                                <br />
+                                
                                 <h3 class="animated3">
                             		<span>You gotta rub it if you wanna have it</span>
                             	</h3>

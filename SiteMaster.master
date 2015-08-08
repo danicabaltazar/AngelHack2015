@@ -189,7 +189,7 @@
         
         
         <!-- Start Portfolio Section -->
-        <div class="section full-width-portfolio" style="border-top:0; border-bottom:0; background:#fff;">
+        <div class="section full-width-portfolio" style="border-top:0; border-bottom:0; background:#b4d8e7;">
 
                 <!-- Start Big Heading -->
                 <div class="big-title text-center" data-animation="fadeInDown" data-animation-delay="01">
