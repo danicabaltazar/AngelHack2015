@@ -36,7 +36,7 @@
     <!-- Css3 Transitions Styles  -->
     <link rel="stylesheet" type="text/css" href="css/animate.css" media="screen">
 
-    <link rel="stylesheet" type="text/css" href="css/colors/red.css" media="screen" />
+    <%--<link rel="stylesheet" type="text/css" href="css/colors/red.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="css/colors/red.css" title="red" media="screen" />
     <link rel="stylesheet" type="text/css" href="css/colors/jade.css" title="jade" media="screen" />
     <link rel="stylesheet" type="text/css" href="css/colors/green.css" title="green" media="screen" />
@@ -48,7 +48,7 @@
     <link rel="stylesheet" type="text/css" href="css/colors/pink.css" title="pink" media="screen" />
     <link rel="stylesheet" type="text/css" href="css/colors/purple.css" title="purple" media="screen" />
     <link rel="stylesheet" type="text/css" href="css/colors/sky-blue.css" title="sky-blue" media="screen" />
-    <link rel="stylesheet" type="text/css" href="css/colors/yellow.css" title="yellow" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/colors/yellow.css" title="yellow" media="screen" />--%>
     <link href='http://fonts.googleapis.com/css?family=Berkshire+Swash' rel='stylesheet' type='text/css'/>
 
 

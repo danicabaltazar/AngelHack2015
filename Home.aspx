@@ -120,7 +120,9 @@
                         </button>
                         <!-- End Toggle Nav Link For Mobiles -->
                         <a class="navbar-brand" href="Home.aspx">
-                           <img src="images/slider/Genietext.png" />
+                            
+                           <img src="images/Genie MK2 Top.png" style=" height: 30px; width: 114px"/>
+                           
                         </a>
                     </div>
                     <div class="navbar-collapse collapse">
@@ -151,20 +153,16 @@
             <div id="main-slide" >
               
                 <div class="header">
-                    <div class="" style=" height: 449px; width: 1275px" >
+                    <div class="" style=" height: 550px; width: 1275px" >
                         <img class="img-responsive" src="images/slider/b4d8e7.png" alt="slider" style="width: 100%;max-height: 100%"  />
-                             
+                        
                             <div class="slider-content">
+                               
                                 <div class="col-lg-12 text-center">
                                 
-                                <h2 class="animated2">
-                        		  
-                        	    </h2>
-                                <br />
-                                <br />
+                                <img src="images/Genie%20MK2%20Main.png" style="height:60%; width:40%" align="top"/>
                                 
-                                <img src="images/Genie%20MK2%20Main.png" />
-                                <br />
+                                
                                 <h3 class="animated3">
                             		<span>You gotta rub it if you wanna have it</span>
                             	</h3>
@@ -192,7 +190,7 @@
                 <div class="row">
                     
                     <!-- Start Service Icon 1 -->
-                    <div class="col-md-3 col-sm-6 service-box service-center" data-animation="fadeIn" data-animation-delay="01">
+                    <div class="col-md-4 col-sm-6 service-box service-center" data-animation="fadeIn" data-animation-delay="01">
                         <div class="service-icon">
                             <i class="fa fa-list-alt icon-large"></i>
                         </div>
@@ -205,7 +203,7 @@
                     <!-- End Service Icon 1 -->
 
                     <!-- Start Service Icon 2 -->
-                    <div class="col-md-3 col-sm-6 service-box service-center" data-animation="fadeIn" data-animation-delay="02">
+                    <div class="col-md-4 col-sm-6 service-box service-center" data-animation="fadeIn" data-animation-delay="02">
                         <div class="service-icon">
                             <i class="fa fa-users icon-large"></i>
                         </div>
@@ -217,7 +215,7 @@
                     <!-- End Service Icon 2 -->
 
                     <!-- Start Service Icon 3 -->
-                    <div class="col-md-3 col-sm-6 service-box service-center" data-animation="fadeIn" data-animation-delay="03">
+                    <div class="col-md-4 col-sm-6 service-box service-center" data-animation="fadeIn" data-animation-delay="03">
                         <div class="service-icon">
                             <i class="fa fa-check-square-o icon-large"></i>
                         </div>
@@ -228,16 +226,7 @@
                     </div>
                     <!-- End Service Icon 3 -->
 
-                    <!-- Start Service Icon 4 -->
-                    <div class="col-md-3 col-sm-6 service-box service-center" data-animation="fadeIn" data-animation-delay="04">
-                        <div class="service-icon">
-                            <i class="fa fa-question-circle icon-large"></i>
-                        </div>
-                        <div class="service-content">
-                            <h4></h4>
-                            <p>Ano ilalagay dito???</p>
-                        </div>
-                    </div>
+                   
                     
 
                 </div><!-- .row -->
@@ -322,7 +311,7 @@
         </div>
     </div>
 
-    <%--<!-- Style Switcher -->
+   <%-- <!-- Style Switcher -->
     <div class="switcher-box">
         <a href="#" class="open-switcher show-switcher"><i class="fa fa-cog fa-2x"></i></a>
         <h4>Style Switcher</h4>

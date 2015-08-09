@@ -107,7 +107,7 @@
                         </button>
                         <!-- End Toggle Nav Link For Mobiles -->
                         <a class="navbar-brand" href="">
-                            <img alt="" src="images/slider/Genietext.png">
+                             <img src="images/Genie MK2 Top.png" style=" height: 30px; width: 114px"/>
                         </a>
                     </div>
                     <div class="navbar-collapse collapse">
@@ -175,9 +175,9 @@
                             <li>
                                 <a href="Home.aspx">Logout</a>
                                 
-                            </li>
+                            <%--</li>
                             <li><a href="contact.html">Contact</a>
-                            </li>
+                            </li>--%>
                         </ul>
                         <!-- End Navigation List -->
                     </div>

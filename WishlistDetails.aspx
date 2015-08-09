@@ -2,14 +2,17 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="title" Runat="Server">
     <h2><asp:Literal ID="ltName" runat="server"></asp:Literal> </h2><br />
-    <p>Description: <asp:Literal ID="ltDescription" runat="server"></asp:Literal></p>
+    <h3><asp:Literal ID="ltDescription" runat="server"></asp:Literal></h3>
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="content" Runat="Server">
      <form runat="server" class="form-horizontal">
 
-         <h2 class="text-center">Items</h2>
-         <p class="text-center"><a href='AddItem.aspx?ID=<%# Eval("Wishlist_ID") %>'>Add Items</a></p>
+         <div class="container">
+         <h4><a href='AddItem.aspx?ID=<%# Eval("Wishlist_ID") %>'>Add Items</a></h4>
+         </div>
+         <br />
+         <br />
 
         <div class="col-lg-9">
             <asp:ListView ID="lvItems" runat="server">
@@ -41,6 +44,9 @@
             </asp:ListView>
         </div>
 
-    </form>
+
+
+    </form> 
+    
 </asp:Content>
 

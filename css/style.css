@@ -919,6 +919,7 @@ ul.social-list li:last-child a i {
     text-align: center;
     color: #F4E4B2;
     font-family: 'Berkshire Swash';
+    font-style: normal;
 }
 
 .slider.btn{
@@ -938,6 +939,7 @@ ul.social-list li:last-child a i {
   -o-box-shadow: 0 4px 0 rgba(0,0,0,0.1) inset;
   -moz-box-shadow: 0 4px 0 rgba(0,0,0,0.1) inset;
   -webkit-box-shadow: 0 4px 0 rgba(0,0,0,0.1) inset;
+  font-style: normal;
 }
 
 .slider.btn.btn-default{
@@ -1746,6 +1748,8 @@ input[type="submit"] {
   	border:0;
   	text-transform: uppercase;
   	font-weight: 400;
+  	background-color: #f91a1a;
+  
 }
 
 .btn-system:last-child {
@@ -2060,6 +2064,7 @@ ul.icons-list li i {
     -moz-transition: all 0.4s ease-in-out;
     -webkit-transition: all 0.4s ease-in-out;
     -o-transition: all 0.4s ease-in-out;
+    
 }
 
 .icon-large:hover, .service-box:hover .icon-large {
